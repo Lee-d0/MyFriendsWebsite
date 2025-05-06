@@ -380,6 +380,7 @@ body{
 
     .car_wash_package h1{
         font-size: 30px;
+        padding-top:20px ;
 
     }
     .detail_package h1{
@@ -389,6 +390,8 @@ body{
     }
 
     .info_content{
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         left: 0;
 
@@ -400,34 +403,13 @@ body{
     }
     .option_right{
         margin-left: 20px;
+        font-size: 15px;
         width: 250px;
-        height: 300px;
+        height: 280px;
     }
 
     #BeforeandAfter{
         display: flex;
         margin: 30px;
     }
-}
-
-@media (max-width:330px) {
-    .car_wash_package{
-        width: 80%;
-        height: 1000px;
-        background-color: rgb(78, 78, 251);
-        margin: 0px 40px 0px ;
-        border-radius: 50px;
-        text-align: center;
-        box-shadow: 5px 5px 20px black;
-    }
-    .detail_package{
-        width: 80%;
-        height: 1350px;
-        background-color: rgb(78, 78, 251);
-        margin: 50px 40px 0px ;
-        border-radius: 50px;
-        text-align: center;
-        box-shadow: 5px 5px 20px black;
-    }
-    
 }
