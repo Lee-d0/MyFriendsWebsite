@@ -410,10 +410,10 @@ body{
     }
 }
 
-@media (max-width:730px) {
+@media (max-width:330px) {
     .car_wash_package{
         width: 80%;
-        height: 1200px;
+        height: 1000px;
         background-color: rgb(78, 78, 251);
         margin: 0px 40px 0px ;
         border-radius: 50px;
