@@ -290,6 +290,7 @@ body{
     }
     .nav{
         border-radius:0 0 0 0 ;
+        width: 100%;
     }
     nav .heading{
         margin: 0;
@@ -360,7 +361,7 @@ body{
 
     .car_wash_package{
         width: 80%;
-        height: 950px;
+        height: 1000px;
         background-color: rgb(78, 78, 251);
         margin: 0px 40px 0px ;
         border-radius: 50px;
@@ -369,7 +370,7 @@ body{
     }
     .detail_package{
         width: 80%;
-        height: 1325px;
+        height: 1350px;
         background-color: rgb(78, 78, 251);
         margin: 50px 40px 0px ;
         border-radius: 50px;
@@ -393,19 +394,19 @@ body{
 
     }
     .option_left{
-        margin-left: 30px;
+        margin-left: 20px;
         width: 250px;
         height: 250px;
     }
     .option_right{
-        margin-left: 30px;
+        margin-left: 20px;
         width: 250px;
         height: 270px;
     }
 
     #BeforeandAfter{
         display: flex;
-        margin: 50px;
+        margin: 30px;
     }
 }
 
