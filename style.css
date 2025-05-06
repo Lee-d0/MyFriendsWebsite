@@ -398,13 +398,13 @@ body{
     }
     .option_left{
         margin-left: 20px;
-        font-size: 15px;
+        font-size: 13px;
         width: 250px;
         height: 250px;
     }
     .option_right{
         margin-left: 20px;
-        font-size: 15px;
+        font-size: 13px;
         width: 250px;
         height: 280px;
     }
