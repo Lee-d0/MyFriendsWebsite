@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolling Shine Detailing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="row">
+    <nav class="nav">
+        <div class="heading">
+            <h3>Rolling Shine and Detailing</h3>
+        </div>
+            <ul class="nav_lists">
+                <li class="nav_item"><a href="#Home" onclick="toggleMenu()">Home</a></li>
+                <li class="nav_item"><a href="#Services" onclick="toggleMenu()">Services</a></li>
+                <li class="nav_beforeandafter"><a href="#BeforeandAfter" onclick="toggleMenu()">Before and After</a></li>
+            </ul>
+            <div class="hambuger"><i class="fa fa-bars" onclick="toggleMenu()" ></i></div>
+            
+        
+    </nav>
+    
+    <script>
+        let menuList = document.querySelector(".nav_lists")
+        menuList.style.maxHeight = "0px"
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "300px"
+            }else{
+                menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
+    <section id="Home">
+        
+            <div class="info_container">
+                <div class="contact_info">
+                    <div class="contact">
+                        <h1>Contact</h1>
+                        <h2>Israel</h2>
+                        <h3>(813)-539-2597</h3>
+                        <h2>Eben</h2>
+                        <h3>(813)-599-0020</h3>
+                    </div>
+                </div>
+                <div class="car_price">
+                    <h1>For Sedans standard price </h1>
+                    <ul class="list_items">
+                        <li><h2>-SUV +$10</h2></li>
+                        <li><h2>-Trucks +$20</h2></li>
+                        <li><h2>-Buses or RV +40</h2></li>
+                        <li><h2>Headlight Restoration $40</h2></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+    </section>
+    <section id="Services">
+        <div class="images_left">
+            <ul class='images_list'>
+                <li class="image_item"><img class="image" src="images/beforeandafter/before_1.jpg" alt=""></li>
+                <li class="image_item"><img class="image"  src="images/beforeandafter/before_2.jpg" alt=""></li>
+                <li class="image_item"><img class="image"  src="images/beforeandafter/before_3.jpg" alt=""></li>
+                <li class="image_item"><img class="image"  src="images/beforeandafter/before_4.jpg" alt=""></li>
+                <li class="image_item"><img class="image"  src="images/beforeandafter/before_5_intero.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="service_info ">
+            <div class="car_wash_package">
+                <h1>Car Wash Packages (Prices may change on the state of the vehicle)</h1>
+                <div class="info_content">
+                    <div class="left_group">
+                        <div class="option_left">
+                            <h1>#1 Basic wash</h1>
+                            <h2>$40 -Exterior hand wash</h2>
+                            <h3>-Outside windows clean -Rims clean and tire shine</h3>
+                        </div>
+                        <div class="option_left">
+                            <h1>#2 Deluxe wash
+                            </h1>
+                            <h2>$60 -Exterior hand wash
+                            </h2>
+                            <h3> -Vacuum 
+                                <br>-wiping of the dash, doors, and leather seats 
+                                <br>-Window in and out clean 
+                                <br>-Rims and tire shine 
+                                <br>-Door jams
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="option_right">
+                        <h1>#3 Mini Detail
+                        </h1>
+                        <h2>$100 -Exterior hand wash
+                        </h2>
+                        <h3> 
+                            -Vacuum
+                            <br>-Wipe down inside Dash, doors and leather treatment
+                            <br>-Door jams
+                            <br>-shampoo floor mats
+                            <br>-Rims and tire shine -Spray wax
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail_package">
+                <h1>Detail Packages (Prices may change on the state of the vehicle)</h1>
+                <h2>For Ceramic Coating- Ask for pricing</h2>
+                <div class="info_content">
+                    <div class="left_group">
+                        <div class="option_left">
+                            <h1>#1 Full Interior detail
+                            </h1>
+                            <h2>$140 -Mini detail package included</h2>
+                            <h3>-Steam shampoo floor and seats/Leather treatment
+                            </h3>
+                        </div>
+                        <div class="option_left">
+                            <h1>#2 Full Exterior Detail
+                            </h1>
+                            <h2>$140 -Mini Detail package included
+                            </h2>
+                            <h3>-Clay bar, Polish and wax
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="right_group">
+
+                        <div class="option_right">
+                            <h1>#3 Full Detail
+                            </h1>
+                            <h2>$220
+                            </h2>
+                            <h3> 
+                                <br>-Interior and Exterior Detail
+                                <br>-Paint correction
+                                <br>-Buff light scratches
+                            </h3>
+                        </div>
+                        <div class="option_right">
+                            <h1>#4 Hand Wax
+                            </h1>
+                            <h2>$110
+                            </h2>
+                            <h3> 
+                                <br>-Exterior hand wash
+                                <br>-Hand wax
+                                <br>-Deluxe package included
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="images_right">
+            <ul class='images_list_right'>
+                <li class="image_item"><img class="image" src="images/beforeandafter/after_1.jpg" alt=""></li>
+                <li class="image_item"><img class="image"  src="images/beforeandafter/after_2.jpg" alt=""></li>
+                <li class="image_item"><img class="image"  src="images/beforeandafter/after_3.jpg" alt=""></li>
+                <li class="image_item"><img class="image"  src="images/beforeandafter/after_4.jpg" alt=""></li>
+                <li class="image_item"><img class="image"  src="images/beforeandafter/after_5_intero.jpg" alt=""></li>
+            </ul>
+        </div>
+
+    </section>
+    <section id="BeforeandAfter">
+        <div class="before">
+            <h1>Before</h1>
+            <ul class="before_list">
+                <li><img src="images/beforeandafter/before_1.jpg" alt=""></li>
+                <li><img src="images/beforeandafter/before_2.jpg" alt=""></li>
+                <li><img src="images/beforeandafter/before_3.jpg" alt=""></li>
+                <li><img src="images/beforeandafter/before_4.jpg" alt=""></li>
+                <li><img src="images/beforeandafter/before_5_intero.jpg" alt=""></li>
+            </ul>
+
+        </div>
+        <div class="after">
+            <h1>After</h1>
+            <ul class="after_list">
+                <li><img src="images/beforeandafter/after_1.jpg" alt=""></li>
+                <li><img src="images/beforeandafter/after_2.jpg" alt=""></li>
+                <li><img src="images/beforeandafter/after_3.jpg" alt=""></li>
+                <li><img src="images/beforeandafter/after_4.jpg" alt=""></li>
+                <li><img src="images/beforeandafter/after_5_intero.jpg" alt=""></li>
+            </ul>
+        </div>
+    </section>
+</div>
+</body>
+</html>

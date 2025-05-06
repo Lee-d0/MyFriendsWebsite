@@ -1,0 +1,1 @@
+let  menuList = document.querySelector(".nav_lists")
